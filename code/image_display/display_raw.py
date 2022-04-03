@@ -2,9 +2,7 @@ import numpy as np
 import imageio as img
 from skimage.color import rgb2gray
 import os
-
 from typing import Optional
-
 # import skimage
 import matplotlib.pyplot as plt
 

@@ -4,8 +4,6 @@ from typing import Optional, Dict
 import cv2
 from skimage.feature import peak_local_max
 
-import image_display.display_raw as dr
-
 
 class ImageAnalyzer:
     DROPLET_SIZE = 7  # size in pixels
