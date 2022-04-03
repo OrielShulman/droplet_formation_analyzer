@@ -1,7 +1,6 @@
 import copy
 import numpy as np
 import random
-import image_display.display_raw as dr
 import cv2
 from typing import Tuple
 
@@ -54,7 +53,6 @@ def get_testing_sample() -> Tuple[np.ndarray, np.ndarray]:
 
 
 if __name__ == '__main__':
-    import time
     random.seed(0)
     np.random.seed(0)
 
